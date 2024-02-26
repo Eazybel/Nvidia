@@ -1,4 +1,44 @@
+.head{
+    height: 75px;
+    width: 100%;
+    background-color: green;
+
+}
+.headup{
+    height: 50px;
+    width:100%;
+    background-color: black;
+
+    position: fixed;
+}
 .brand,.para{
-   
     text-align: center;
+}
+.support{
+    display: inline-block;
+    border: black 2px solid;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    margin-left: 310px;
+    
+    
+}
+.support2{
+    display: inline-block;
+    border: black 2px solid;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.foot{
+margin-top: 20px;
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    margin-bottom: 0;
+    
 }
