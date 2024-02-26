@@ -1,26 +1,29 @@
 .head{
-    height: 75px;
+    height: 66px;
     width: 100%;
-    background-color: green;
-
-}
-.headup{
-    height: 50px;
-    width:100%;
-    background-color: black;
-
+    background-color: rgb(0, 0, 0);
     position: fixed;
 }
-.brand,.para{
+.headup{
+    height: 46px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+.brand{
+    text-align: center;
+    margin-top: 108px;
+}
+.para{
     text-align: center;
 }
 .support{
     display: inline-block;
     border: black 2px solid;
     height: 250px;
-    width: 200px;
+    width: 501px;
     text-align: center;
     margin-left: 310px;
+    border-radius: 6px;
     
     
 }
@@ -28,17 +31,41 @@
     display: inline-block;
     border: black 2px solid;
     height: 250px;
-    width: 200px;
+    width: 501px;
     text-align: center;
     justify-content: space-between;
-    margin-left: 120px;
+    margin-left: 27px;
+    border-radius: 6px;
 }
 .foot{
 margin-top: 20px;
-    height: 200px;
+    height: 635px;
     bottom: 0;
     width: 100%;
-    background-color: green;
+    background-color: rgb(0, 0, 0);
     margin-bottom: 0;
     
 }
+.foot2{
+    margin-top: 20px;
+        height: 148px;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 0;
+        
+    }
+    .link{
+        color: white;
+        font-weight: 100;
+        text-decoration: none;
+    }
+    .title{
+        display: inline-block;
+        color: white;
+        margin-left: 314px;
+        margin-top: 67px;
+        text-decoration: 3px underline;
+        text-decoration-color: white ;
+        padding-bottom: 15px;
+    }
