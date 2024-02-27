@@ -1,8 +1,24 @@
+.navi{
+    display: inline;
+}
+.linkdeco{
+    text-decoration: none;
+}
+.link1{
+    margin-left: 315px;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+}
+.logo{
+    margin-left: 311px;
+}
 .head{
     height: 66px;
     width: 100%;
     background-color: rgb(0, 0, 0);
     position: fixed;
+   
 }
 .headup{
     height: 46px;
