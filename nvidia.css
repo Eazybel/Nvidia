@@ -47,12 +47,13 @@ margin-top: 20px;
     
 }
 .foot2{
-    margin-top: 20px;
+        margin-top: 20px;
         height: 148px;
         bottom: 0;
         width: 100%;
         background-color: rgb(255, 255, 255);
         margin-bottom: 0;
+        margin-left: 346px;
         
     }
     .link{
@@ -61,11 +62,54 @@ margin-top: 20px;
         text-decoration: none;
     }
     .title{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         color: white;
         margin-left: 314px;
         margin-top: 67px;
         text-decoration: 3px underline;
         text-decoration-color: white ;
         padding-bottom: 15px;
+      margin-bottom: 50px;
+      text-decoration: none;
+    }
+    .title2{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-left: 314px;
+        margin-top: 67px;
+        text-decoration: 3px underline;
+        text-decoration-color: white ;
+        padding-bottom: 15px;
+      margin-bottom: 50px;
+      text-decoration: none;
+    }
+    .title3{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-left: 314px;
+        margin-top: 67px;
+        text-decoration: 3px underline;
+        text-decoration-color: white ;
+        padding-bottom: 15px;
+      margin-bottom: 50px;
+      text-decoration: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .child{
+        color: greenyellow;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    .child2{
+        color: rgb(129, 129, 129);
+        margin-bottom: 30px;
+        margin-left: 20px;
+        text-decoration: none;
+        display: inline;
     }
