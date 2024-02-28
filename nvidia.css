@@ -158,6 +158,12 @@ margin-top: 20px;
         margin-bottom: 30px;
         text-decoration: none;
     }
+    .arrow{
+        font-weight: 2967;
+        color: greenyellow;
+        font-weight: bold;
+        
+    }
     .child2{
         color: rgb(129, 129, 129);
         margin-bottom: 30px;
