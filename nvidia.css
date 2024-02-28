@@ -42,27 +42,44 @@
 }
 .para{
     text-align: center;
+    font-size: 22px;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 .support{
-    display: inline-block;
-    border: black 2px solid;
-    height: 250px;
+    display: inline-block;   
+    border: rgba(207, 207, 207, 0.685) 2px solid;
+    height: 297px;
     width: 501px;
-    text-align: center;
+    text-align: left;
     margin-left: 441px;
     border-radius: 6px;
-    
-    
+    vertical-align:text-top;
+}
+.support:hover{
+        box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+        transform: translateY(-5px); 
+        
 }
 .support2{
     display: inline-block;
-    border: black 2px solid;
-    height: 250px;
+    border: rgb(207, 207, 207) 2px solid;
+    height: 297px;
     width: 501px;
-    text-align: center;
+    text-align: left;
     justify-content: space-between;
     margin-left: 27px;
     border-radius: 6px;
+    vertical-align: text-top;
+}
+.support2:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px); 
+}
+.consumer{
+    margin-left: 17px;
+}
+.consumer2{
+    margin-left: 47px;
 }
 .foot{
 margin-top: 20px;
@@ -70,7 +87,15 @@ margin-top: 20px;
     bottom: 0;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    margin-bottom: 0;
+    margin-bottom: 0; 
+}
+.nmaes2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 17px;
+}
+.nmaes4{
+    text-decoration: none;
     
 }
 .foot2{
